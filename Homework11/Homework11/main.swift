@@ -156,7 +156,7 @@ func filter11(str: String) -> Bool {
     return str.contains("i")
 }
 var array11 = ["Hello", "GITC", "iOS"]
-var filtredArray11 = array11.filter(filter11(str:))
+var filtredArray11 = array11.filter(filter11)
 print(filtredArray11)
 
 //Home Work 11_12
@@ -176,3 +176,10 @@ var filter12 = { (a : String) -> Bool in
 var array12 = ["Hello", "GITC", "iOS"]
 var filtredArray12 = array12.filter(filter12)
 print(filtredArray12)
+
+
+
+var dd = filtredArray12.filter { item in
+    return item.contains("H")
+}
+print(dd)
