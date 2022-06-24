@@ -198,4 +198,9 @@ class Button: View {
         
         super.init(frame: frame)
     }
+    
+    convenience init(frame: Rect, titleName: String) {
+        self.init(frame: frame, titleName: titleName, isSelected: true)
+        
+    }
 }
