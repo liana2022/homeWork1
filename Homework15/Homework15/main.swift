@@ -204,3 +204,23 @@ class Button: View {
         
     }
 }
+
+class GITCViewController {
+    var view: View
+    var navigationTitle: String
+    
+    init() {
+        self.view = View.init()
+        self.navigationTitle = ""
+    }
+    
+    init(navigationTitle: String)  {
+        self.navigationTitle = navigationTitle
+        self.view = View.init()
+    }
+    init(frame: Rect) {
+        self.view = View.init(frame: frame)
+        self.navigationTitle = ""
+    }
+    
+}

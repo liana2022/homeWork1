@@ -9,7 +9,6 @@ import Foundation
 
 print("Hello, World!")
 
-//Homework 1
 
 var a1 = 5
 var b1 = 145

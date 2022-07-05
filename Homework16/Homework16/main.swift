@@ -122,9 +122,24 @@ class CallManager {
         self.callTo = callTo!
     }
     
-//    init?(callFrom: String, callTo: String) {
-//
-//    }
+    init?(callFrom: String, callTo: String) {
+        if callFrom.isEmpty || callTo.isEmpty {
+            return nil
+        }
+        
+        let callFrom = PhoneNumber.init(number: callFrom)
+        let callTo = PhoneNumber.init(number: callTo)
+        
+        if callFrom == nil || callTo == nil {
+            return nil
+        }
+        if callFrom!.code.count != 4 || callTo!.code.count != 4 {
+            return nil
+        }
+        
+        self.callFrom = callFrom!
+        self.callTo = callTo!
+    }
 }
 
 //6. Ստեղծել Enum RequestMethod անունով հետևյալ հավանական արժեքներով post, get, delete
