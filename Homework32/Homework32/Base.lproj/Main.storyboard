@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Homework32" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxR-od-xAd">
+                                <rect key="frame" x="155.5" y="708.5" width="103.5" height="103.5"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gxR-od-xAd" secondAttribute="height" id="tmC-x7-eiW"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="I6y-hr-k27" appends="YES" id="idk-DQ-8NN"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y4V-dG-kkf">
+                                <rect key="frame" x="259" y="605" width="103.5" height="103.5"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="AB1-v5-fEl" appends="YES" id="ih3-0a-J6i"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SaO-0b-l7J">
+                                <rect key="frame" x="52" y="605" width="103.5" height="103.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Left" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXr-Ot-kFz">
+                                        <rect key="frame" x="30" y="36" width="42" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
+                                        <color key="textColor" systemColor="linkColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="zX4-wk-HH4" appends="YES" id="SlC-53-jWQ"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Nm-KZ-rNb">
+                                <rect key="frame" x="155.5" y="501.5" width="103.5" height="103.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Top" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwO-mG-aac">
+                                        <rect key="frame" x="31" y="37" width="42" height="30"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="28"/>
+                                        <color key="textColor" systemColor="linkColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="QwO-mG-aac" firstAttribute="centerX" secondItem="8Nm-KZ-rNb" secondAttribute="centerX" id="7yq-MO-DQL"/>
+                                    <constraint firstItem="QwO-mG-aac" firstAttribute="centerY" secondItem="8Nm-KZ-rNb" secondAttribute="centerY" id="Ukb-oF-fDq"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="FRX-BK-Ogh" appends="YES" id="zqk-Vz-o5e"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MMX-ne-rAo">
+                                <rect key="frame" x="50" y="94" width="50" height="50"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0ep-Oa-cNe"/>
+                                    <constraint firstAttribute="width" constant="50" id="qCH-Bp-Of7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="8Nm-KZ-rNb" firstAttribute="width" secondItem="SaO-0b-l7J" secondAttribute="width" id="02l-Zz-j91"/>
+                            <constraint firstItem="gxR-od-xAd" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1/4" id="2oE-90-93h"/>
+                            <constraint firstItem="8Nm-KZ-rNb" firstAttribute="height" secondItem="SaO-0b-l7J" secondAttribute="height" id="5OC-Yn-C1b"/>
+                            <constraint firstItem="MMX-ne-rAo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="5YE-OW-4WY"/>
+                            <constraint firstItem="gxR-od-xAd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AWi-ij-WM2"/>
+                            <constraint firstItem="gxR-od-xAd" firstAttribute="height" secondItem="Y4V-dG-kkf" secondAttribute="height" id="E2p-gD-jv8"/>
+                            <constraint firstItem="SaO-0b-l7J" firstAttribute="top" secondItem="8Nm-KZ-rNb" secondAttribute="bottom" id="GxL-yT-Oar"/>
+                            <constraint firstItem="SaO-0b-l7J" firstAttribute="height" secondItem="gxR-od-xAd" secondAttribute="height" id="KdS-ly-BDZ"/>
+                            <constraint firstItem="gxR-od-xAd" firstAttribute="leading" secondItem="SaO-0b-l7J" secondAttribute="trailing" id="LLP-nX-boq"/>
+                            <constraint firstItem="gxR-od-xAd" firstAttribute="top" secondItem="Y4V-dG-kkf" secondAttribute="bottom" id="Ylq-tk-us9"/>
+                            <constraint firstItem="Y4V-dG-kkf" firstAttribute="leading" secondItem="gxR-od-xAd" secondAttribute="trailing" id="bos-Se-7zS"/>
+                            <constraint firstItem="SaO-0b-l7J" firstAttribute="width" secondItem="gxR-od-xAd" secondAttribute="width" id="dg1-4h-xjl"/>
+                            <constraint firstItem="gxR-od-xAd" firstAttribute="top" secondItem="SaO-0b-l7J" secondAttribute="bottom" id="kBL-Kg-3Zh"/>
+                            <constraint firstItem="8Nm-KZ-rNb" firstAttribute="leading" secondItem="SaO-0b-l7J" secondAttribute="trailing" id="l4n-We-Cmk"/>
+                            <constraint firstItem="MMX-ne-rAo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="lD8-Kc-0ja"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gxR-od-xAd" secondAttribute="bottom" constant="50" id="sXn-jT-IUD"/>
+                            <constraint firstItem="gxR-od-xAd" firstAttribute="width" secondItem="Y4V-dG-kkf" secondAttribute="width" id="tsN-xR-Za0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="leftConstraint" destination="5YE-OW-4WY" id="0au-wN-iSs"/>
+                        <outlet property="topConstraint" destination="lD8-Kc-0ja" id="Gls-ws-szS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="AB1-v5-fEl">
+                    <connections>
+                        <action selector="rightGestureClicked:" destination="BYZ-38-t0r" id="Fjr-cU-4Q3"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="FRX-BK-Ogh">
+                    <connections>
+                        <action selector="topGestuteClickes:" destination="BYZ-38-t0r" id="U5h-3B-Qdg"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="zX4-wk-HH4">
+                    <connections>
+                        <action selector="leftGestureClicked:" destination="BYZ-38-t0r" id="2IJ-I7-6xE"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="I6y-hr-k27">
+                    <connections>
+                        <action selector="bottomGestureClicked:" destination="BYZ-38-t0r" id="vja-xH-8oC"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="65.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
